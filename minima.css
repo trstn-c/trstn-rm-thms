@@ -1,0 +1,193 @@
+@import url("https://overpass-30e2.kxcdn.com/overpass.css");
+:root {
+  --background-color: #fbfbf8;
+  --primary-accent: purple;
+  --secondary-accent: blue;
+  --text-color: rgba(22,22,29,0.95);
+  --font: "Overpass";
+  --sidebar-font-size: 16px;
+  --sidebar-font-weight: 400;
+  --sidebar-capitals: lowercase;
+  --main-font-size: auto;
+  --display-sidebar-icons: auto;
+}
+
+html, body, #app, .roam-topbar, .bp3-input[type=search] {
+  background-color: var(--background-color);
+}
+
+div, textarea {
+  font-family: var(--font) !important;
+}
+
+span {
+  text-decoration: none !important;
+}
+
+.roam-body .roam-app {
+  color: var(--text-color);
+}
+
+.roam-body .roam-app .roam-sidebar-container {
+  width: auto;
+  background-color: transparent;
+  border-right: 1px solid rgba(22, 22, 29, 0.15);
+  transition: all 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.roam-body .roam-app .roam-sidebar-container a {
+  outline: 0;
+}
+.roam-body .roam-app .roam-sidebar-container .rm-db-title-container .rm-db-title {
+  padding: 0;
+  font-family: var(--font);
+  font-size: var(--sidebar-font-size);
+  color: var(--text-color);
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .top-row {
+  padding: 16px;
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .top-row:hover {
+  background-color: transparent;
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .rm-db-title {
+  font-weight: var(--sidebar-font-weight);
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .rm-db-title .expand-icon {
+  padding-left: 8px;
+  color: var(--primary-accent);
+  font-size: 16px;
+  transition: all 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .rm-db-title .expand-icon:hover {
+  filter: brightness(1.25);
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button {
+  padding: 0 16px 16px;
+  font-weight: var(--sidebar-font-weight);
+  font-family: var(--font);
+  font-size: var(--sidebar-font-size);
+  color: rgba(22, 22, 29, 0.75);
+  transition: all 150ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover {
+  background-color: transparent;
+  color: rgba(22, 22, 29, 0.95);
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button .bp3-icon {
+  display: var(--display-sidebar-icons);
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button .flex-h-box {
+  font-weight: var(--sidebar-font-weight);
+  font-family: var(--sidebar-font);
+  font-size: var(--sidebar-font-size);
+  color: rgba(22, 22, 29, 0.75);
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button .flex-h-box:hover {
+  color: rgba(22, 22, 29, 0.95);
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .icon {
+  font-size: 16px;
+  padding-right: 8px;
+  font-weight: 500;
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .icon.settings {
+  font-size: 16px;
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper {
+  padding: 0 !important;
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
+  padding: 16px 16px 0;
+  text-decoration: none;
+  font-weight: var(--sidebar-font-weight);
+  font-family: var(--sidebar-font);
+  font-size: var(--sidebar-font-size);
+  color: rgba(22, 22, 29, 0.75);
+  transition: all 150ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover {
+  background-color: transparent;
+  color: rgba(22, 22, 29, 0.95);
+}
+
+div.flex-v-box.starred-pages-wrapper .flex-h-box {
+  display: none;
+}
+
+.starred-pages-wrapper > div:first-child {
+  flex: 0 0 1px !important;
+  background-color: rgba(22, 22, 29, 0.15) !important;
+}
+
+.starred-pages-wrapper > div:nth-child(2) {
+  flex: 0 0 0 !important;
+}
+
+#roam-sidebar-logo {
+  display: none;
+}
+
+.bp3-popover {
+  box-shadow: none;
+  margin: 0;
+}
+
+.search-icon {
+  display: none;
+}
+
+.rm-find-or-create-wrapper {
+  transition: all 150ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.bp3-input-group .bp3-input:not(:first-child) {
+  padding-left: 10px;
+}
+
+input#find-or-create-input {
+  background: var(--background-color);
+  border: 1px solid var(--background-color);
+  border-bottom: 0;
+  border-radius: 0;
+  box-shadow: inherit;
+  transition: all 300ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+input#find-or-create-input:focus {
+  border: 1px solid rgba(22, 22, 29, 0.15);
+  border-bottom: 0;
+  border-radius: 0;
+}
+
+.rm-find-or-create-wrapper {
+  box-shadow: none;
+  transition: all 300ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.rm-find-or-create-wrapper .bp3-menu {
+  max-height: 600px;
+  border: 1px solid rgba(22, 22, 29, 0.15);
+  border-top: none;
+  border-radius: 0;
+  background: var(--background-color);
+}
+
+.bp3-button .bp3-icon, .bp3-button .bp3-icon-standard, .bp3-button .bp3-icon-large {
+  color: rgba(22, 22, 29, 0.35);
+}
+
+.bp3-button[class*=bp3-icon-]::before {
+  font-size: 1em;
+  color: rgba(22, 22, 29, 0.35);
+}
+
+.rm-saving-icon .rm-saving-local {
+  background-color: #e5ccc9;
+}
+
+.rm-saving-icon .rm-saving-remote {
+  background-color: #F9F7E1;
+}
+
+.rm-saving-icon .rm-synced {
+  background-color: #E4F9E1;
+}
