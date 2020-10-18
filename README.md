@@ -8,7 +8,7 @@
 ## Themes
 - Currently I have two themes that are somewhat presentable
   - Minima, which aims to minimal but still keep functionality
-  and
+  - and
   - el-n, which is minimal but not overly so and focuses more on function over form
 
 ## 🤯 In progress:
