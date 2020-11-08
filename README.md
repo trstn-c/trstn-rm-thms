@@ -18,7 +18,7 @@
   - I intend to augment and amplify the interface that already exists. 
   - I don't have any interest in creating an alternative interface, and those who do, do it better than I would.
 # el-n
-@import url('el-n.css');
+@import url('https://trstn-c.github.io/trstn-rm-thms/el-n/el-n.css');
 ## Blurb
 - Inspired by a playful mix of form, function & fun; and my ex and some of the conversations we had in the past.
 - Soft shadows for soft vibes
