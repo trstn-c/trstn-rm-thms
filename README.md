@@ -1,11 +1,11 @@
 # trstn-rm-thms
-- Hello there, I'm Trstn. I'm a maker currently studying at AUA for a BFA.
-- I've been using Roam for a bit more than a month and somewhere in week two or so I started playing around with themes others had made and then decided to make my own.
-- This is a repo for my roam theming work and experimentation.
-- I only know CSS from playing around making quick websites on and off through the years.
-- Bit out of my depths but intently trying to figure things out.  
+- 👋 Hello there, I'm Trstn. I'm a maker currently studying at AUA for a BFA.
+- 📅 I've been using Roam for a bit more than a month and somewhere in week two or so I started playing around with themes others had made and then decided to make my own.
+- 🔨 This is a repo for my roam theming work and experimentation.
+  - I only know CSS from playing around making quick websites on and off through the years.
+  - Bit out of my depths but intently trying to figure things out.  
 
-- Any critique or suggestions or help with any aspect of a theme that I'm struggling with is appreciated. I can be easily found at @trstn_ca
+- 💬 Any critique or suggestions or help with any aspect of a theme that I'm struggling with is appreciated. I can be easily found at @trstn_ca
   
 ## Themes
 - Currently I have a few themes in progress and a bunch more planned
@@ -66,5 +66,7 @@ span.rm-page-ref[data-tag=Coffee] {
 - Polishing of alignments
 ## Preview
 ![](/Images/el-n_mainPreview.png)
+### References
 ![](/Images/el-n_references.png)
+### Kanban
 ![](/Images/el-n_kanban.png)
