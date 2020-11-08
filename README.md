@@ -25,7 +25,18 @@ Install with @import url('https://raw.githubusercontent.com/trstn-c/trstn-rm-thm
 - Uses SF Compact for the sidebar and SF Pro for main content, if San Francisco isn't installed, it'll use Overpass
 - Primary, secondary, and tertiary accents dictate internal, external, and tag links as well as the colours of a few parts of the interface
 - Block reference underline is translucent, and block references pop out slightly on hover
-- Custom tags aren't included by default but can be implemented by adding this CSS to the end of the theme or making another section on your roam/css page and inputting it there.
+- Custom tags aren't included by default but can be implemented by adding the CSS found at the bottom of this page to the end of the theme or making another section on your roam/css page and inputting it there.
+### Roadmap
+- All pages page
+- Better buttons
+- Polishing of alignments
+## Preview
+![](/Images/el-n_mainPreview.png)
+### References
+![](/Images/el-n_references.png)
+### Kanban
+![](/Images/el-n_kanban.png)
+## Tag Styling
 ```
 /* an emoji or other thing before "yourTag" */
 span.rm-page-ref[data-tag=yourTag]::before {
@@ -60,13 +71,3 @@ span.rm-page-ref[data-tag=Coffee] {
   color: #483526 !important;
 }
 ```
-### Roadmap
-- All pages page
-- Better buttons
-- Polishing of alignments
-## Preview
-![](/Images/el-n_mainPreview.png)
-### References
-![](/Images/el-n_references.png)
-### Kanban
-![](/Images/el-n_kanban.png)
